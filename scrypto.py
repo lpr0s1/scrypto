@@ -56,7 +56,7 @@ time.sleep(3)
 os.system("clear")
 
 while True:
-    def help()
+    def help():
         print(gras + "\033[41mCENTRE D AIDE" + nocolor)
         print(bleu + "[-]" + red + "Consulter mes données: [Entrez votre variable]")
         print(bleu + "[-]" + red + "Consulter ma variable: [c]")
