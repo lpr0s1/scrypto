@@ -51,6 +51,8 @@ print("Vous seul pouvez consulter les données que vous avez enregistrez, seulem
 
 print("\n\n")
 
+time.sleep(3)
+
 os.system("clear")
 
 while True:
