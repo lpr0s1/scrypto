@@ -95,6 +95,7 @@ while True:
     if(cdata == "o"):
         conf = input("Etes vous sur de vouloir auto-detruire vos données ? [y/n]\n" + bleu + "=> " + nocolor)
         if(conf == "y"):
+            os.system("clear")
             exit()
         if(conf == "n"):
             os.system("clear")
